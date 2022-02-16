@@ -16,25 +16,21 @@ chosen_letters = list()
 for l in range(0, nr_letters):
   letter = random.choice(letters)
   chosen_letters.append(letter)
-# print(chosen_letters)
 
 # choosing random numbers
 chosen_numbers = list()
 for l in range(0, nr_numbers):
   number = random.choice(numbers)
   chosen_numbers.append(number)
-# print(chosen_numbers)
 
 # choosing random symbols
 chosen_symbols = list()
 for l in range(0, nr_symbols):
   symbol = random.choice(symbols)
   chosen_symbols.append(symbol)
-# print(chosen_symbols)
 
 # making one list containing all chosen elements
 all_chosen_elements = chosen_letters + chosen_numbers + chosen_symbols
-# print(all_chosen_elements)
 
 # creating the password
 password = ''
